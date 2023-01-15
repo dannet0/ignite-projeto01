@@ -1,0 +1,5 @@
+.App {
+    color: var(--gray-400);
+    background: var(--gray-600);
+    height: 100vh;
+}
