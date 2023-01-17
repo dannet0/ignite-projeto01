@@ -6,18 +6,7 @@ import styles from './App.module.css'
 
 function App() {
 
-  const [tasks, setTasks] = useState([
-    {
-      id: 1,
-      title: "something",
-      completed: false,
-    },
-    {
-      id: 2,
-      title: "something completed",
-      completed: true,
-    }
-  ])
+  const [tasks, setTasks] = useState([])
 
   function addTask(taskTitle) {
     setTasks([
